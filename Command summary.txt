@@ -19,3 +19,22 @@ touch app/models.py
 touch app/routes.py
 touch config.py
 touch run.py
+
+
+
+    # https://flask.palletsprojects.com/en/3.0.x/tutorial/factory/
+    
+    # Set Up
+   # python3 -m venv venv : virtual environment
+   # source venv/bin/activate  : windows : venv\Scripts\activate
+   # python3 -m pip install --upgrade pip - upgrade pip
+   # python3 -m pip install Flask-Bcrypt Flask-SQLAlchemy
+   # python run.py
+
+
+    # Installing Flask and Other Packages:
+
+    #  You install Flask and any other necessary packages, 
+    # like Flask-Bcrypt for password hashing and Flask-SQLAlchemy for database interactions.
+
+  
