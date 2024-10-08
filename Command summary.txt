@@ -1,0 +1,21 @@
+# Step 1: Create project directory and navigate into it
+mkdir mangaJozuFlask
+cd mangaJozuFlask
+
+# Step 2: Set up virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+# Step 3: Upgrade pip
+python3 -m pip install --upgrade pip
+
+# Step 4: Install Flask and other packages
+python3 -m pip install Flask flask-bcrypt Flask-SQLAlchemy
+
+# Step 5: Create directory structure and files
+mkdir app
+touch app/__init__.py
+touch app/models.py
+touch app/routes.py
+touch config.py
+touch run.py
